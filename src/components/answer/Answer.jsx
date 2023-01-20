@@ -2,7 +2,7 @@ const Answer = ({answer, note, size}) => {
   return (
     <>
       <div className={size ? 'flex mt-2 lg:pl-40 pl-5' : 'flex mt-2 pl-5'}>
-        <div className="bg-slate-300 text-teal-900 m-1 my-auto p-2 drop-shadow rounded lg:ml-36">
+        <div className="bg-slate-300 text-slate-900 m-1 my-auto p-2 drop-shadow rounded lg:ml-36">
           { note &&
             <div className="text-orange-700">
               Note for Medicare patients:
