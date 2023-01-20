@@ -4,7 +4,7 @@ import Answer from "../answer/Answer"
 const FAQ = () => {
   return (
     <>
-      <div className="bg-gradient-to-b from-yellow-600 w-screen to-red-900 pt-[64px] px-3">
+      <div className="bg-gradient-to-b from-yellow-600 w-screen to-red-900 pt-[64px] sm:pr-0 pr-4">
         <div className="h-[1px]">
         </div>
 
