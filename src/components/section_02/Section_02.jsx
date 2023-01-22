@@ -1,5 +1,10 @@
 import { Canvas } from '@react-three/fiber'
 import { Stars, Float, Sparkles } from '@react-three/drei'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper'
 
 import UseCase from '../useCase/useCase'
 import './Section_02.css'
@@ -22,40 +27,71 @@ function Section_02() {
       </Canvas>
       <div className='absolute top-0 w-screen '>
         <div className='pt-36'>
-          <div className='text-center text-3xl bg-slate-600/20 rounded mx-auto w-3/4 backdrop-blur-md p-3'>
+          <div className='text-center text-3xl font-black bg-slate-600/20 rounded mx-auto w-3/4 backdrop-blur-md p-3'>
             Who Can Benefit From LENS?
             <div className='text-base text-left'>
 
-              <UseCase 
-                title='Anxiety' 
-                content='LENS is exceptionally effective at reducing of anxiety. Most clients begin to experience improvement within 4-6 sessions. LENS also improves resilience, the ability to handle stress, and helps create a sense of calm in difficult situations.' 
-              />
+              <Swiper         
+                slidesPerView={1}
+                loop={true}
+                centeredSlides={true}
+                spaceBetween={30}
+                grabCursor={true}
+                pagination={{
+                  clickable: true,
+                }}
+                modules={[Pagination]}
+                className="mySwiper"
+              >
+                <SwiperSlide>
+                  <UseCase 
+                    title='Anxiety' 
+                    content='LENS is exceptionally effective at reducing of anxiety. Most clients begin to experience improvement within 4-6 sessions. LENS also improves resilience, the ability to handle stress, and helps create a sense of calm in difficult situations.' 
+                  />
+                </SwiperSlide>
 
-              <UseCase 
-                title='Depression' 
-                content='LENS helps lift depression—sometimes even when it has been resistant to other treatments. Energy and motivation can also increase and a client may once again experience a positive sense of health and well being.' 
-              />
+                <SwiperSlide>
+                  <UseCase 
+                    title='Depression' 
+                    content='LENS helps lift depression—sometimes even when it has been resistant to other treatments. Energy and motivation can also increase and a client may once again experience a positive sense of health and well being.' 
+                  />
+                </SwiperSlide>
 
-              <UseCase 
-                title='Traumatic Brain Injury (TBI)' 
-                content='In mild and moderate TBI, clarity, concentration/focus, memory, multi-tasking and energy can significantly and quickly improve.' 
-              />
+                <SwiperSlide>
+                  <UseCase 
+                    title='Traumatic Brain Injury (TBI)' 
+                    content='In mild and moderate TBI, clarity, concentration/focus, memory, multi-tasking and energy can significantly and quickly improve.' 
+                  />
+                </SwiperSlide>
 
-              <UseCase 
-                title='ADD/ADHD' 
-                content='LENS decreases impulsivity, distractibility and hyperactivity. The world becomes easier to navigate. Life becomes less of a struggle for the patient and parent.' 
-              />
+                <SwiperSlide>
+                  <UseCase 
+                    title='ADD/ADHD' 
+                    content='LENS decreases impulsivity, distractibility and hyperactivity. The world becomes easier to navigate. Life becomes less of a struggle for the patient and parent.' 
+                  />
+                </SwiperSlide>
 
-              <UseCase 
-                title='Substance Abuse' 
-                content='Because LENS is so effective at treating anxiety, depression and poor impulse control, it can be tremendously helpful for people withdrawing from, and working at staying away from, addictive substances.' 
-              />
-              
-              <UseCase 
-                title='Autism, Aspergers, OCD, Hair Pulling, Eating Disorders' 
-                content='Autism, Aspergers, OCD, Hair Pulling, Eating Disorders
-                Again, because LENS is so effective at treating anxiety, depression and poor impulse control, there is often dramatic improvement in a variety of disorders where these symptoms are present.' 
-              />
+                <SwiperSlide>
+                  <UseCase 
+                    title='Substance Abuse' 
+                    content='Because LENS is so effective at treating anxiety, depression and poor impulse control, it can be tremendously helpful for people withdrawing from, and working at staying away from, addictive substances.' 
+                  />  
+                </SwiperSlide>
+
+                <SwiperSlide>
+                  <UseCase 
+                    title='Autism, Aspergers, OCD, Hair Pulling, Eating Disorders' 
+                    content='Autism, Aspergers, OCD, Hair Pulling, Eating Disorders
+                    Again, because LENS is so effective at treating anxiety, depression and poor impulse control, there is often dramatic improvement in a variety of disorders where these symptoms are present.' 
+                  />
+                </SwiperSlide>
+
+              </Swiper>
+
+
+
+
+
 
             </div>
           </div>
