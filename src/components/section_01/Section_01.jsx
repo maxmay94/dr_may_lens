@@ -36,7 +36,7 @@ function Section_01() {
             Get help with LENS Neurofeedback
           </p>
           <p className='text-center text-slate-700 text-sm px-10 pb-10'>
-            Low Energy Neurofeedback System (LENS) is a unique type of neurofeedback that nudges the brain out of maladaptive brainwave patterns it is stuck in, allowing it to restore homeostatis, to reset itself for optimal performance. 
+            Low Energy Neurofeedback System (LENS) is a unique type of neurofeedback that nudges the brain out of maladaptive brainwave patterns it is stuck in, allowing it to restore homeostasis, to reset itself for optimal performance. 
           </p>
         </div>
       </div>
