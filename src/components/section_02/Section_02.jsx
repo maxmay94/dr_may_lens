@@ -27,8 +27,10 @@ function Section_02() {
       </Canvas>
       <div className='absolute top-0 w-screen '>
         <div className='pt-36'>
-          <div className='text-center text-3xl font-black bg-slate-600/20 rounded mx-auto w-3/4 backdrop-blur-md p-3'>
-            Who Can Benefit From LENS?
+          <p className='text-6xl font-black py-10 text-slate-200'>
+            LENS can be usefull for those suffering with...
+          </p>
+          <div className='bg-slate-600/20 rounded mx-auto w-3/4 backdrop-blur-md p-3'>
             <div className='text-base text-left'>
 
               <Swiper         
