@@ -5,13 +5,14 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper'
+import Sphere from '../animatedSphere/AnimatedSphere'
 
 import UseCase from '../useCase/useCase'
 import './Section_02.css'
 
 function Section_02() {
   return (
-    <div className="w-screen h-screen bg-gradient-to-b from-slate-200 to-slate-900 relative overflow-y-scroll">
+    <div className="w-screen h-screen bg-gradient-to-b from-amber-500 to-amber-300 relative overflow-y-scroll">
       <div className='relative'>
         <div class="red-curve z-10">
           <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -19,16 +20,20 @@ function Section_02() {
           </svg>
         </div>
       </div>
+
       <Canvas>
-        <Sparkles color="black" size={20} noise={200}  scale={10}/>
-        {/* <Float>
-          <Stars/>
-        </Float> */}
+        {/* <ambientLight intensity={0.1} />
+        <directionalLight position={[-10, 0 , 2]} intensity={.5} /> */}
+        <Sphere scale={.5} position={[-2,-2,0]}/>
+        <Sphere scale={2} position={[2,2,0]}/>
+        {/* <Sparkles color='white' size={1} amount={300} scale={10} /> */}
+        {/* <Stars /> */}
       </Canvas>
-      <div className='absolute top-0 w-screen '>
+
+      <div className='absolute top-0 w-screen my-20'>
         <div className='pt-36'>
           <p className='text-6xl font-black py-10 text-slate-200'>
-            LENS can be usefull for those suffering with...
+            LENS can be useful for those suffering with...
           </p>
           <div className='bg-slate-600/20 rounded mx-auto w-3/4 backdrop-blur-md p-3'>
             <div className='text-base text-left'>
