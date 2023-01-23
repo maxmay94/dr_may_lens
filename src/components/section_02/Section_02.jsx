@@ -36,7 +36,7 @@ function Section_02() {
           <p className='text-6xl font-black py-10 text-slate-200'>
             LENS can be useful for those suffering with...
           </p>
-          <div className='bg-slate-900/50 rounded mx-auto lg:w-1/3 sm:w-3/4 w-[90%] backdrop-blur-sm p-3'>
+          <div className='bg-slate-900/50 rounded mx-auto lg:w-2/3 sm:w-3/4 w-[90%] backdrop-blur-sm p-3'>
             <div className='text-base text-left'>
 
               <Swiper         
@@ -88,9 +88,8 @@ function Section_02() {
 
                 <SwiperSlide>
                   <UseCase 
-                    title='Autism, Aspergers, OCD, Hair Pulling, Eating Disorders' 
-                    content='Autism, Aspergers, OCD, Hair Pulling, Eating Disorders
-                    Again, because LENS is so effective at treating anxiety, depression and poor impulse control, there is often dramatic improvement in a variety of disorders where these symptoms are present.' 
+                    title='Autism, Aspergers, OCD, Hair Pulling, Eating Disorders'
+                    content='Again, because LENS is so effective at treating anxiety, depression and poor impulse control, there is often dramatic improvement in a variety of disorders where these symptoms are present.' 
                   />
                 </SwiperSlide>
 
