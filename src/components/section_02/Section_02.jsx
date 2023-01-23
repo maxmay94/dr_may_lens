@@ -31,9 +31,9 @@ function Section_02() {
         <Sparkles color='black' size={2} amount={300} scale={10} />
       </Canvas>
 
-      <div className='absolute top-0 w-screen my-20'>
+      <div className='absolute top-0 w-screen sm:my-20 my-10'>
         <div className='pt-36'>
-          <p className='text-6xl font-black py-10 text-slate-200'>
+          <p className='ms:text-6xl text-3xl font-black sm:py-10 py-4 text-slate-200'>
             LENS can be useful for those suffering with...
           </p>
           <div className='bg-slate-900/50 rounded mx-auto lg:w-2/3 sm:w-3/4 w-[90%] backdrop-blur-sm p-3'>
