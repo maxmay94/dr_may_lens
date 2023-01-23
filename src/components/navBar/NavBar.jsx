@@ -5,7 +5,7 @@ const NavBar = () => {
         <nav className="">
           <ul className="flex flex-row">
 
-            <li className="grow m-2 font-base text-2xl text-sky-900">
+            <li className="grow m-2 font-base text-2xl text-slate-800">
               <p>
                 Dr. Peter May
               </p>
