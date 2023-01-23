@@ -11,10 +11,9 @@
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 31px;
-  transform: rotateY(180deg);
+  height: 177px;
 }
 
 .red-curve .shape-fill {
-  fill: #7F1C1D;
+  fill: #7E1D1D;
 }
