@@ -35,7 +35,7 @@ function Section_01() {
           <p className='text-center text-slate-900 sm:text-2xl text-xl'>
             Get help with LENS Neurofeedback
           </p>
-          <p className='text-center text-slate-700 text-sm px-10 pb-10'>
+          <p className='text-center text-slate-700 text-sm px-10 pb-10 z-10'>
             Low Energy Neurofeedback System (LENS) is a unique type of neurofeedback that nudges the brain out of maladaptive brainwave patterns it is stuck in, allowing it to restore homeostasis, to reset itself for optimal performance. 
           </p>
         </div>
