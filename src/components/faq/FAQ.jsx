@@ -11,7 +11,7 @@ const FAQ = () => {
         <div className="text-6xl font-black sm:text-left sm:m-10 text-slate-200">
           Frequently Asked Questions.
         </div>
-        <div className="md:w-3/4 lg:text-lg md:text-base text-sm md:bg-amber-700/50 rounded-sm md:p-5 p-2 pt-5 mx-auto">
+        <div className="md:w-3/4 lg:text-lg md:text-base text-sm md:bg-slate-700/30 rounded-sm md:p-5 p-2 pt-5 mx-auto">
 
           <Question question={'Who Can Benefit From LENS?'}/>
           <Answer size={true} answer={'LENS is not diagnosis-based. We are treating a dysfunctional brain, one that is stuck in maladaptive brainwave patterns and the associated neurochemistry. LENS does not give one a new brain. It can only help optimize the one you have. It works best on patients who, at one point, were normal functioning in their lives, and then something (a singular episode, multiple or repeated exposures) happened to change them. Interestingly, it doesn’t seem to matter how long ago that was.'} />
