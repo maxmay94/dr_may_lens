@@ -1,5 +1,5 @@
 import { Canvas } from '@react-three/fiber'
-import { Stars, Float, Sparkles } from '@react-three/drei'
+import { Stars, Float, Sparkles, Cloud } from '@react-three/drei'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -29,6 +29,7 @@ function Section_02() {
         <Sphere scale={.5} position={[-2,-2,0]}/>
         <Sphere scale={2} position={[2,2,0]}/>
         <Sparkles color='black' size={2} amount={300} scale={10} />
+        {/* <Cloud /> */}
       </Canvas>
 
       <div className='absolute top-0 w-screen sm:my-20 my-10'>
